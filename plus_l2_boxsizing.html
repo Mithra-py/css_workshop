@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#content-box{
+    background-color: darkorange;
+    border: 5px solid red;
+    height: 50px;
+    padding: 20px;
+    /* box-sizing: content-box; */
+}
+
+#border-box{
+    background-color: crimson;
+    border: 5px solid blue;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+span{
+    background-color: red;
+    padding: 0px 50px;
+    /* padding: 50px; */
+    /* inline elementlere yatayda margin ve padding verebiliriz dikeyde vermemeliyiz. */
+}
+h2{
+    margin-top: -50px;
+    padding: 0px 350px;
+}
+    </style>
+</head>
+<body>
+    <h1>Content Box</h1>
+<img src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669__480.jpg" alt="" width="500px">
+<br>
+<p id="content-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis earum est ratione, saepe architecto, laborum vero aut iusto error aperiam numquam! Reprehenderit voluptate perspiciatis rem maiores natus! Perspiciatis, aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut dolorem est laudantium explicabo culpa fuga veritatis in delectus voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+<span>Lorem ipsum dolor sit amet.</span>
+
+<h1>Border Box</h1>
+<img src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669__480.jpg" alt="" width="500px">
+
+
+<h2>resmin üstünde</h2>
+<p id="border-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis earum est ratione, saepe architecto, laborum vero aut iusto error aperiam numquam! Reprehenderit voluptate perspiciatis rem maiores natus! Perspiciatis, aliquam?</p>
+
+</body>
+</html>
