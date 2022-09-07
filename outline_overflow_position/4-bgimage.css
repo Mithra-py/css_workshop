@@ -1,0 +1,8 @@
+*{
+    color: white;
+}
+header.banner .bg{
+    background-image: url(https://cdn.pixabay.com/photo/2022/07/09/17/42/dog-7311407__340.jpg);
+    background-size: cover;
+    height: 100vh;
+}
