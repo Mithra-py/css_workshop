@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+}
+.abs{
+    background-color: aqua;
+    width: 10mm;
+    width: 10cm;
+    width: 100px;
+}
+
+.div2{
+    background-color: tomato;
+    width: 50%;
+    height: 50%;
+}
+
+.div3{
+    background-color: violet;
+    width: 50%;
+    height: 50%;
+}
+
+.div4{
+    background-color: yellowgreen;
+    width: 40vw;
+    height: 20vh;
+}
+
+.div5{
+    font-size: 1em;     /*16px*/
+}
+
+.div6{
+    font-size: 2em;     /*32px*/
+}
+
+.div7{
+    font-size: 0.5em;   /*3em yapıldığı zaman 96px*/ /*16px*/
+}
+
+.div8{
+    font-size: 2rem;    /*32px*/
+}
+
+.div9{
+    font-size: 3rem;    /*48px*/
+}
+
+
+
+
+
+
+
+
+
