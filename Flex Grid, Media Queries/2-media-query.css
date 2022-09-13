@@ -37,7 +37,7 @@ h1{
 }
 
 .navbar a{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: var(--beyaz);
     padding: 0.8rem 1rem;
@@ -46,6 +46,7 @@ h1{
 .navbar a:hover{
     background-color: var(--gri-7);
     color: var(--siyah);
+    text-align: center;
 }
 .row{
     display: flex;
@@ -79,7 +80,38 @@ h1{
     width: 15%;
 }
 
+@media screen and (max-width: 992px){ 
+    body{
+        background-color: var(--açık-kırmızı);
+        color: var(--beyaz);
+    }
+    .col{
+        width: 50%;
+        margin: 0.5rem 0;
+    }
+}
 
+@media screen and (max-width: 600px){ 
+    body{
+        background-color: var(--mor-1);
+        color: var(--beyaz);
+    }
+    .header{
+        display: none;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .col{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .navbar a:hover{
+        width: 100%;
+    }
+}
 
 
 
